@@ -18,7 +18,7 @@ function App() {
     const formData = new FormData();
     formData.append('file', file);
     try {
-      const res = await fetch('http://localhost:5000/api/dub', {
+      const res = await fetch('https://dubber-ai-tool-git-main-partofcosmos1-res-projects.vercel.app/', {
         method: 'POST',
         body: formData,
       });
